@@ -2,7 +2,9 @@
 
 ## Description
 
-This bash script automates the setup for bulk RNA sequencing data analysis. It performs the following steps:
+This bash script automates the setup for RNA sequencing data analysis. It takes the raw Illumina sequencing data (fastq file) as the input and returns a counts file. 
+
+It performs the following steps:
 
 1. Quality check of the transcripts using FastQC.
 2. Trimming of adapters from the transcripts using Trimmomatic.
