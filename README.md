@@ -29,7 +29,7 @@ conda install -c bioconda trimmomatic
 conda install -c bioconda hisat2
 
 # Install Samtools
-conda install -c bioconda samtools
+conda install -c bioconda samtools=1.19.2
 
 # Install FeatureCounts
 conda install -c bioconda subread
